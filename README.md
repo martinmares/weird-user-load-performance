@@ -1,9 +1,75 @@
+# Some JDK tests...
+
+## corretto-8.222.10.1
+
+```
+"Elapsed time: 10956.74844 msecs"
+"Elapsed time: 4486.034422 msecs"
+```
+
+## 8.0.222.j9-adpt
+
+```
+"Elapsed time: 6654.354136 msecs"
+"Elapsed time: 3714.212684 msecs"
+```
+
+## 8.0.222.hs-adpt
+
+```
+"Elapsed time: 10512.722145 msecs"
+"Elapsed time: 4029.348681 msecs"
+```
+
+## 11.0.4-amzn
+
+```
+"Elapsed time: 12287.995344 msecs"
+"Elapsed time: 4493.021668 msecs"
+```
+
+## 11.0.4.j9-adpt
+
+```
+"Elapsed time: 7067.861256 msecs"
+"Elapsed time: 4371.907519 msecs"
+```
+
+## 12.0.2.hs-adpt
+
+```
+"Elapsed time: 14311.87187 msecs"
+"Elapsed time: 13775.201107 msecs"
+```
+
+## 12.0.2.j9-adpt
+
+```
+"Elapsed time: 7505.345086 msecs"
+"Elapsed time: 4040.289537 msecs"
+```
+
+## 13.0.0.hs-adpt
+
+```
+"Elapsed time: 3269.578063 msecs"
+"Elapsed time: 3820.806803 msecs"
+```
+
+## 13.0.0.j9-adpt
+
+```
+"Elapsed time: 8063.941225 msecs"
+"Elapsed time: 3793.765122 msecs"
+```
 loading namespaces from user.clj seems have gotten slower on recent
 jdks. it is most noticible with macro heavy code (see core.async).
 
 foo.clj loads clojure.core.async then exits. the deps.edn has no
 paths, :user alias adds a user.clj on the classpath which loads
 foo.clj
+
+# Original README...
 
 clj is the same throughout
 
