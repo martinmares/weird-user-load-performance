@@ -62,14 +62,22 @@
 "Elapsed time: 8063.941225 msecs"
 "Elapsed time: 3793.765122 msecs"
 ```
+
+## 19.2.0-grl
+
+```
+"Elapsed time: 11114.87909 msecs"
+"Elapsed time: 3935.264804 msecs"
+```
+
+# Original README...
+
 loading namespaces from user.clj seems have gotten slower on recent
 jdks. it is most noticible with macro heavy code (see core.async).
 
 foo.clj loads clojure.core.async then exits. the deps.edn has no
 paths, :user alias adds a user.clj on the classpath which loads
 foo.clj
-
-# Original README...
 
 clj is the same throughout
 
