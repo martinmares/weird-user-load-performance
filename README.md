@@ -84,11 +84,18 @@
 "Elapsed time: 3825.419004 msecs"
 ```
 
-## 13.0.0.hs-adpt
+## 13.0.1-zulu
 
 ```
-"Elapsed time: 3786.789106 msecs"
-"Elapsed time: 3901.029951 msecs"
+"Elapsed time: 3799.822229 msecs"
+"Elapsed time: 3909.198818 msecs"
+```
+
+## 13.0.0-librca
+
+```
+"Elapsed time: 3617.990272 msecs"
+"Elapsed time: 4294.842528 msecs"
 ```
 
 # Original README...
