@@ -70,6 +70,27 @@
 "Elapsed time: 3935.264804 msecs"
 ```
 
+## ora 18.9 (build 11.0.5+10-LTS, mixed mode)
+
+```
+"Elapsed time: 12387.151908 msecs"
+"Elapsed time: 5458.231237 msecs"
+```
+
+## ora (build 13.0.1+9, mixed mode, sharing)
+
+```
+"Elapsed time: 3528.249572 msecs"
+"Elapsed time: 3825.419004 msecs"
+```
+
+## 13.0.0.hs-adpt
+
+```
+"Elapsed time: 3786.789106 msecs"
+"Elapsed time: 3901.029951 msecs"
+```
+
 # Original README...
 
 loading namespaces from user.clj seems have gotten slower on recent
